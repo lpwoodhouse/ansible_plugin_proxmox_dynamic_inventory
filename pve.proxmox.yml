@@ -1,0 +1,4 @@
+plugin: community.general.proxmox
+user: root@pam
+password: Br3tton30
+want_proxmox_nodes_ansible_host: true
