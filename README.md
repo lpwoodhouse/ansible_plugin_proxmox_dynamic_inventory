@@ -1,4 +1,4 @@
-# Ansible play: proxmox_dynamic_inventory
+# Ansible Plugin: proxmox_dynamic_inventory
 
 ## Purpose
 
@@ -6,7 +6,7 @@ This play is for creating a dynamic inventory in AWX from a ProxmoxVE host
 
 ## Requirements
 
-community.general
+community.general<br>
 ansible.utils
 
 ## Default Playbook Variables
