@@ -1,7 +1,7 @@
 plugin: community.general.proxmox
-user: root@pam
-password: Br3tton30
-url: https://10.0.0.4:8006
+user: <root@pam>
+password: <password>
+url: <host_url> #eg https://192.168.0.1:8006
 validate_certs: false
 #want_facts: true
 want_proxmox_nodes_ansible_host: false
