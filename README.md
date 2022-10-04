@@ -1,4 +1,4 @@
-# Ansible Play: proxmox_host_inventory
+# Ansible play: proxmox_dynamic_inventory
 
 ## Purpose
 
@@ -11,7 +11,7 @@ ansible.utils
 
 ## Default Playbook Variables
 
-Default playbook variables are listed below:
+Default plugin variables are listed below:
 ```shell
 user: <root@pam>
 password: <password>
