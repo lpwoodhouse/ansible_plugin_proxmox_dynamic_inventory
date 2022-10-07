@@ -1,4 +1,7 @@
 # Ansible Plugin: proxmox_dynamic_inventory
+![GitHub last commit](https://img.shields.io/github/last-commit/lpwoodhouse/ansible_plugin_proxmox_dynamic_inventory)
+![GitHub repo file count](https://img.shields.io/github/directory-file-count/lpwoodhouse/ansible_plugin_proxmox_dynamic_inventory)
+![GitHub top language](https://img.shields.io/github/languages/top/lpwoodhouse/ansible_plugin_proxmox_dynamic_inventory)
 
 ## Purpose
 
@@ -36,8 +39,8 @@ compose:
 
 ## License
 
-MIT
+[![GitHub](https://img.shields.io/github/license/lpwoodhouse/ansible_plugin_proxmox_dynamic_inventory)](LICENSE)
 
 ## Author Information
 
-This role was created in 2022 by [Lee Woodhouse](https://www.leewoodhouse.com/)
+This repository was created in 2022 by [Lee Woodhouse](https://www.leewoodhouse.com/)
