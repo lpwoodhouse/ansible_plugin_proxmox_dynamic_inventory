@@ -1,8 +1,10 @@
-# Ansible Plugin: proxmox_dynamic_inventory
+# Proxmox Dynamic Inventory
+![proxmox](https://img.shields.io/badge/-ProxmoxVE-black?style=flat&logo=proxmox)
+[![playbook](https://img.shields.io/badge/Ansible%20Playbook-grey?stype=flat&logo=ansible&logoColor=EE0000)](site.yml)
 ![GitHub last commit](https://img.shields.io/github/last-commit/lpwoodhouse/ansible_plugin_proxmox_dynamic_inventory)
 ![GitHub repo file count](https://img.shields.io/github/directory-file-count/lpwoodhouse/ansible_plugin_proxmox_dynamic_inventory)
 ![GitHub top language](https://img.shields.io/github/languages/top/lpwoodhouse/ansible_plugin_proxmox_dynamic_inventory)
-
+[![GitHub](https://img.shields.io/github/license/lpwoodhouse/ansible_plugin_proxmox_dynamic_inventory)](LICENSE)
 ## Purpose
 
 This play is for creating a dynamic inventory in AWX from a ProxmoxVE host
@@ -36,10 +38,6 @@ want_proxmox_nodes_ansible_host: false
 compose:
   ansible_host: proxmox_ipconfig0.ip | default(proxmox_net0.ip) | ipaddr('address')
 ```
-
-## License
-
-[![GitHub](https://img.shields.io/github/license/lpwoodhouse/ansible_plugin_proxmox_dynamic_inventory)](LICENSE)
 
 ## Author Information
 
